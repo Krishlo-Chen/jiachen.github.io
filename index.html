@@ -1,0 +1,240 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jia Chen</title>
+    <link rel="icon" href="icon.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+        body {
+            font-family: 'Trebuchet MS', sans-serif;
+            display: flex;
+            font-size: large;
+            padding: 0;
+            height: 100%;
+            background-color: white; /* 保持背景为白色 */
+            color: black; /* 默认字体颜色为黑色 */
+        }
+
+        .container {
+            display: flex;
+            width: 100%;
+            height: 100%;
+        }
+
+        .black-sidebar {
+            width: 15%;
+            padding: 20px;
+            box-sizing: border-box;
+        }
+
+        .sidebar {
+            width: 25%;
+            background-color: #f4f4f4;
+            padding: 0px;
+            box-sizing: border-box;
+            text-align: center;
+        }
+
+        .sidebar img {
+            margin-top: 20px;
+            width: 90%;
+            border-radius: 50%;
+            margin-bottom: 20px;
+        }
+
+        .sidebar a {
+            display: block;
+            margin: 15px;
+            text-decoration: none;
+            color: #007ea7; /* 修改为浅蓝色字体 */
+            font-size: large;
+        }
+
+        .sidebar h2 {
+            color: #0288d1; /* 修改为稍深的浅蓝色标题 */
+            font-size: xxx-large;
+        }
+
+        .content {
+            margin-top: 0px;
+            width: 45%;
+            padding: 0px;
+            box-sizing: border-box;
+            color: black; /* content区域默认字体颜色保持为黑色 */
+        }
+
+        .content h2 {
+            margin-left: 50px;
+            margin-top: 10px;
+            color: #0288d1; /* 修改为稍深的浅蓝色标题 */
+            font-size: xxx-large;
+        }
+
+        .content p {
+            margin-left: 50px;
+            font-size: large;
+            color: black; /* content区域的段落默认字体颜色保持为黑色 */
+        }
+
+        .content a {
+            color: #007ea7; /* content区域的链接字体颜色修改为浅蓝色 */
+        }
+
+        .content ul {
+            list-style-type: none; /* Remove default list style */
+            padding: 0;
+        }
+
+        .content ul li {
+            margin-bottom: 10px; /* Adjust spacing between list items */
+        }
+
+        .publication-item {
+            display: flex;
+            align-items: flex-start;
+            margin-bottom: 20px;
+            margin-left: 50px; /* 与About Me内容对齐 */
+        }
+
+        .publication-image {
+            width: 300px; /* 固定图片宽度 */
+            margin-right: 20px;
+        }
+
+        .publication-content {
+            flex: 1; /* 让文字内容占据剩余空间 */
+        }
+
+        .publication-title {
+            font-size: large; /* 使标题与下方内容一致 */
+            font-weight: bold; /* 标题加粗 */
+            margin: 0 0 10px;
+            color: black; /* 保持黑色字体 */
+        }
+
+        .publication-authors {
+            font-size: large; /* 正常字体大小 */
+            margin: 0 0 5px;
+            color: black; /* 保持黑色字体 */
+        }
+
+        .publication-details a {
+            color: #007ea7; /* 链接的颜色 */
+            margin-right: 10px;
+        }
+
+        footer {
+            background-color: #f4f4f4;
+            color: #007ea7; /* 修改为浅蓝色字体 */
+            font-size: x-small;
+            text-align: center;
+            padding: 0px 0px;
+            position: flex;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <div class="black-sidebar"></div>
+    <div class="sidebar">
+        <h2>Jia Chen</h2>
+        <img src="../jiachen.github.io/1.jpg" alt="Your Photo">
+        <a href="mailto:chenj674@mcmaster.ca"><i class="fas fa-address-card"></i> chenj674@mcmaster.ca</a>
+        <a href="https://github.com/Krishlo-Chen" target="_blank"><i class="fab fa-github"></i> GitHub</a>
+        <!--            <a href="https://www.linkedin.com/in/gengyisun/" target="_blank"><i class="fab fa-linkedin"></i> LinkedIn</a>-->
+        <a href="https://scholar.google.ca/citations?user=hONj9eIAAAAJ&hl=en" target="_blank"><i
+                class="fas fa-graduation-cap"></i> Google Scholar</a>
+        <a href="../jiachen.github.io/Jia_Chen.pdf" target="_blank"><i class="fas fa-file-pdf"></i> My CV</a>
+        <a>&#x270D My name: 陈嘉</a>
+    </div>
+    <div class="content">
+        <h2>About Me</h2>
+        <p>Master Student in Computer Science at <a href="https://www.mcmaster.ca/" target="_blank">McMaster University,
+            Canada</a>. </p>
+
+        <p> I'm currently a Master student working under the supervision of Professor <a
+                href="https://www.linkedin.com/in/yingying-wang-91233164/?originalSubdomain=ca" target="_blank">Yingying
+            Wang</a>.
+            I am conducting research related to 3D generation, specifically focusing on human motion generation. I am
+            also interested in applying AI technologies to other areas of graphics, such as digital avatar, extended
+            reality, neural rendering, and more.
+        </p>
+        <p>
+            During my undergraduate studies, I focused on computer vision under the guidance of Professor <a
+                href="https://sites.google.com/view/pinglics/home" target="_blank">Ping Li</a> and gained practical
+            experience in sequence prediction under the supervision of
+            Professor <a href="https://dongjingwang.github.io/" target="_blank"> Wang Dongjing</a>.
+            After graduation, I worked as a software development engineer at <a href="https://www.huawei.com/en/"
+                                                                                target="_blank"> Huawei</a> for 9
+            months.
+
+        </p>
+
+        <h2>Main Publications</h2>
+
+        <ul>
+            <li>
+                <div class="publication-item">
+                    <img src="../jiachen.github.io/overview.png" alt="Publication Image" class="publication-image">
+                    <div class="publication-content">
+
+                        <strong> Masked Deconstructed Diffusion for 3D Human Motion Generation from Text </strong><br><br>
+                        <b> Jia</b> Chen, Fangze Liu, Yingying Wang.<br><br>
+
+
+                        <a href="https://aixvr.tecnico.ulisboa.pt/" target="_blank">IEEE AIxVR 2025</a> (Under Review)
+                        <a href="link-to-webpage" target="_blank">[Webpage]</a>
+
+                    </div>
+                </div>
+            </li>
+        </ul>
+
+
+        <ul>
+            <li>
+                <div class="publication-item">
+                    <img src="../jiachen.github.io/img_1.png" alt="Publication Image" class="publication-image">
+                    <div class="publication-content">
+
+                        <strong>Gated three-tower transformer for text-driven stock market prediction</strong><br><br>
+                        <b>Jia Chen</b>, Tao Chen, Mengqi Shen, Yunhai Shi, Dongjing Wang, Xin Zhang.<br><br>
+
+
+                        <a href="https://link.springer.com/journal/11042" target="_blank">Multimedia Tools and
+                            Applications</a>
+                        <a
+                        href="https://doi.org/10.1007/s11042-022-11908-1" target="_blank">[Paper]</a>
+
+                    </div>
+                </div>
+            </li>
+        </ul>
+
+
+
+
+
+
+
+
+
+
+        <h2>More About Me</h2>
+        <p>I love animation, which inspires my research. Shirobako introduced me to the basics of 2D and 3D animation. Recent 3D Japanese animations like Girls Band Cry highlight the future of AI in creating high-quality animation.</p>
+
+        <footer>
+            Last updated: 2024-09-02 ---
+        </footer>
+
+    </div>
+
+    <div class="black-sidebar"></div>
+</div>
+
+</body>
+</html>
